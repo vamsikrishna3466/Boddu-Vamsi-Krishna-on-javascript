@@ -1,0 +1,162 @@
+.main
+{
+	margin-top:200px;
+  margin-left:70px;
+}
+.sub1
+{
+	height:35px;
+	margin-right:555px;
+	margin-left:485px;
+	background-color:rgb(0,0,255);
+	color:white;
+	width:300px;
+}
+.sub2
+{
+	margin-left:500px;
+}
+.sign
+{
+	background-color:rgb(0,0,255);
+	color:white;
+	border-radius:7px;
+	border:none;
+	margin-top:11px;
+	height:35px;
+}
+input
+{
+	margin-top:5px;
+	width:260px;
+	height:25px;
+}
+.sub3,.sub4,.sub5
+{
+	color:white;
+	border:none;
+	border-radius:5px;
+	height:30px;
+	font-size:15px;
+}
+.sub3
+{
+	margin-top:20px;
+	background-color:rgb(0,0,150);
+	font-family:"Glyphs"
+}
+.sub4
+{
+	background-color:rgb(255,0,0);
+	font-family:"Glyphs"
+}
+.sub5
+{
+	background-color:rgb(255,210,0);
+	margin-top:17px;
+	margin-bottom:20px;
+}
+#icon1
+{
+	padding-left:15px;
+}
+#text
+{
+	padding-left:100px;
+	font-size:20px;
+}
+#icon2
+{
+	padding-left:75px;
+}
+.reg
+{
+	padding-left:20px;
+}
+.regi
+{
+	margin-top:20px;
+}
+@media (min-width:1px) and (max-width:575px)
+{
+	.main
+	{
+		margin-top:90px;
+		margin-bottom:100px;
+	}
+	.sub1
+	{
+		margin-left:40px;
+	}
+	.sub2
+	{
+		margin-left:57px;
+	}
+}
+@media (min-width:576px) and (max-width:767px)
+{
+	.main
+	{
+		margin-top:190px;
+		margin-bottom:100px;
+	}
+	.sub1
+	{
+		margin-left:70px;
+	}
+	.sub2
+	{
+		margin-left:100px;
+	}
+
+}
+@media (min-width:768px) and (max-width:991px)
+{
+	.main
+	{
+		margin-top:130px;
+		margin-bottom:200px;
+	}
+	.sub1
+	{
+		margin-left:200px;
+	}
+	.sub2
+	{
+		margin-left:220px;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+	.main
+	{
+		margin-top:350px;
+		margin-bottom:400px;
+	}
+	.sub1
+	{
+		margin-left:380px;
+	}
+	.sub2
+	{
+		margin-left:400px;
+	}
+}
+.email,.password,.cell
+	{
+		font-family:fontawesome;
+		color:grey;
+	}		
+input[type="text"]
+{
+  padding:20px 20px 20px 10px;
+}
+input[type="password"]
+{
+  padding:20px 20px 20px 10px;
+}
+input[type="email"]
+{
+  padding:20px 20px 20px 10px;
+}
