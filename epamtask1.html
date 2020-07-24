@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<title>EPAM TASK</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   <link rel="stylesheet" type="text/css" href="epamtask1.css">
+  <script src="formvalidation.js"></script>
+</head>
+<body>
+<div  class="main">
+<div class="sub1">
+<i class='fas fa-graduation-cap' id="icon1"></i>
+<i id="text">sign in</i>
+<p class="glyphicon glyphicon-remove" id="icon2"></p>
+</div>
+<br>
+<div class="sub2">
+<form onsubmit="return validation()">
+<table>
+<tr>
+<td colspan="3">
+<input type="email" name="email" class="email" placeholder="  mail@example.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &#xf0e0;" required/>
+  <br></br>
+</td></tr>
+<tr>
+<td colspan="3">
+<input type="password" name="pass" class="password" id="passid" placeholder="  password    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	     &#xf023;" required/>
+  <br>
+  <i id="passwordErrorMessage2" style="color:red;visibility:hidden">Not strong password</i>
+</td></tr>
+<tr>
+<td colspan="3">
+<input type="text" name="mobile" class="cell" id="mobile" placeholder="  Mobile Number    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	     &#xf10b;" required/>
+   <br>
+<i id="numberErrorMessage" style="color:red;visibility:hidden">Invalid Number</i>
+</td></tr>
+<tr>
+<td colspan="3">
+<input type="submit" value="SIGN IN" class="sign"/>
+</td></tr>
+<tr class="regi">
+<td colspan="2" >
+Forgot your password?
+</td>
+<td class="reg">!Register</td>
+</tr>
+<tr>
+<td colspan="3">--------------------------&nbsp&nbspOR&nbsp&nbsp-------------------</td>
+</tr>
+<tr>
+<td colspan="3">
+<input type="button" value="f" class="sub3"/>
+</td></tr>
+<tr>
+<td colspan="3">
+<input type="button" value="g" class="sub4"/>
+</td></tr>
+<tr>
+<td colspan="3">
+<input type="button" value="< EPAM LOGIN >" class="sub5"/>
+</td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
